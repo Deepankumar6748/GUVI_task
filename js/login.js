@@ -17,11 +17,11 @@ if(result){
 
   if(result ==  document.getElementById('username').value)
   {window.localStorage.setItem("user",result);
-  window.location.href = '/GUVI/profile.html';
+  window.location.href = '/profile.html';
  }
  else {
   
-  window.location.href = '/GUVI/index.html';
+  window.location.href = '/index.html';
  }
 } else {
  alert("Incorrect Password");
